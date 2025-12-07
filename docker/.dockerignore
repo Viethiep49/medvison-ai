@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Data
+data/uploads/*
+data/processed/*
+data/cache/*
+*.jpg
+*.jpeg
+*.png
+*.dcm
+
+# Logs
+logs/*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Docker
+docker-compose.override.yml
+
+# Documentation
+docs/*
+*.md
+
+# Tests
+tests/
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Model checkpoints (large files)
+models/checkpoints/*.pth
+models/checkpoints/*.pt
+!models/checkpoints/.gitkeep
+
+# Environment
+.env
+.env.local

@@ -1,0 +1,46 @@
+# FastAPI Backend Requirements
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Redis
+redis==5.0.1
+
+# ML/AI
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+timm>=0.9.10
+
+# Image Processing
+Pillow>=10.0.0
+opencv-python==4.8.1.78
+pydicom==2.4.3
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Configuration
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv==1.0.0
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Monitoring & Logging
+python-json-logger==2.0.7
+
+# Utilities
+aiofiles==23.2.1
+httpx==0.25.2
