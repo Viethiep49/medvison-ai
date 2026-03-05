@@ -101,3 +101,15 @@ Desktop.ini
 
 # Linux
 *~
+
+# AI Agent config (not for repo)
+.claude/
+.agents/
+_agents/
+.agent/
+
+# Installer files
+*.msi
+
+# Word documents (use markdown instead)
+*.docx
