@@ -38,6 +38,9 @@ class ScanFinding(Base):
     # SQLAlchemy mapped JSON handles SQLite elegantly.
     bounding_box = Column(JSON, nullable=True)
     
+    # Explainable AI (XAI) - Path to the generated heatmap (GradCAM/Attention)
+    heatmap_path = Column(String, nullable=True)
+    
     created_at = Column(DateTime, default=datetime.utcnow)
 
     # Back reference
